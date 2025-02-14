@@ -11,8 +11,8 @@
 
         <ImageView
             android:id="@+id/iv_pelicula"
-            android:layout_width="113dp"
-            android:layout_height="85dp"
+            android:layout_width="130dp"
+            android:layout_height="95dp"
             android:layout_gravity="center"
             android:src="@drawable/bones"
             />
@@ -23,7 +23,9 @@
             android:layout_height="match_parent"
             android:text="BONES"
             android:textSize="15sp"
+            android:textStyle="bold"
             android:gravity="center"
+            android:textColor="@color/yellow"
             />
 
 

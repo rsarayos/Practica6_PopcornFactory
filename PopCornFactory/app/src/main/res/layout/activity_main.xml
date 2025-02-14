@@ -6,13 +6,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/black"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SERIES"
+        android:textSize="20sp"
+        android:textColor="@color/yellow"
+        android:textStyle="bold">
+    </TextView>
+
     <GridView
-        android:id="@+id/gridview"
+        android:id="@+id/gridviewSeries"
         android:numColumns="3"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="300dp">
+
+    </GridView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MOVIES"
+        android:textSize="20sp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/yellow"
+        android:textStyle="bold">
+    </TextView>
+
+    <GridView
+        android:id="@+id/gridviewMovies"
+        android:numColumns="3"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
 
     </GridView>
 
