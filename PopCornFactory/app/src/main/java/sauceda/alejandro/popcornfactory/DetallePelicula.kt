@@ -16,7 +16,7 @@ class DetallePelicula : AppCompatActivity() {
 
         if (bundle != null) {
             findViewById<android.widget.ImageView>(R.id.iv_pelicula_imagen).setImageResource(bundle.getInt("header"))
-            findViewById<android.widget.TextView>(R.id.tv_nombre_pelicula).setText(bundle.getString("nombre"))
+            findViewById<android.widget.TextView>(R.id.tv_nombre_pelicula).setText(bundle.getString("titulo"))
             findViewById<android.widget.TextView>(R.id.tv_pelicula_desc).setText(bundle.getString("sinopsis"))
 
         }
