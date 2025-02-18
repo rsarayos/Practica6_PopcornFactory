@@ -49,10 +49,34 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Descripcion"
-        android:textSize="15sp"
+        android:textSize="16sp"
         android:textColor="@color/white"
         android:paddingTop="4dp"
         android:lineSpacingExtra="4dp"
+        android:layout_marginBottom="50sp"
         />
+
+    <Button
+        android:id="@+id/btn_comprar"
+        android:layout_width="190sp"
+        android:layout_height="70sp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/yellow"
+        android:text="Buy my ticket!"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/seatsLeft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seats available: "
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textColor="@color/grisClaro"
+        />
+
 
 </LinearLayout>
